@@ -1,0 +1,27 @@
+- 참조
+  PostsManager: https://developer.okta.com/blog/2018/02/15/build-crud-app-vuejs-node
+  proxyTable: https://jaxlondon.com/blog/java-core-languages/put-spring-boot-und-vue-js-practical-use-project-tutorial/
+
+- How to run:
+node ./src/server
+npm run dev
+
+- npm audit
+$ npm audit --audit-level=high
+                                                                                
+                       === npm audit security report ===                        
+                                                                                
+# Run  npm install --save-dev nightwatch@1.5.0  to resolve 12 vulnerabilities
+SEMVER WARNING: Recommended action is a potentially breaking change
+┌───────────────┬──────────────────────────────────────────────────────────────┐
+│ Critical      │ Command Injection                                            │
+├───────────────┼──────────────────────────────────────────────────────────────┤
+│ Package       │ growl                                                        │
+├───────────────┼──────────────────────────────────────────────────────────────┤
+│ Dependency of │ nightwatch [dev]                                             │
+├───────────────┼──────────────────────────────────────────────────────────────┤
+│ Path          │ nightwatch > mocha-nightwatch > growl                        │
+├───────────────┼──────────────────────────────────────────────────────────────┤
+│ More info     │ https://npmjs.com/advisories/146                             │
+└───────────────┴──────────────────────────────────────────────────────────────┘
+

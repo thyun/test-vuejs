@@ -14,6 +14,16 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.18.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "finale-rest": "^1.1.1",
+    "jquery": "^1.9.1",
+    "sequelize": "^6.3.5",
+    "sqlite": "^4.0.15",
+    "sqlite3": "^5.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -52,7 +62,7 @@
     "html-webpack-plugin": "^2.30.1",
     "jest": "^22.0.4",
     "jest-serializer-vue": "^0.3.0",
-    "nightwatch": "^0.9.12",
+    "nightwatch": "^1.5.0",
     "node-notifier": "^5.1.2",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
